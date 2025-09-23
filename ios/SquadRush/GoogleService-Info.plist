@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>268853689937-ldluifeao7l2gitebi257tc3d8l22ikf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.268853689937-ldluifeao7l2gitebi257tc3d8l22ikf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDYY02D6GoAdkw6b7Om86ssCMnZPQE5EFo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>268853689937</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.squadrush</string>
+	<key>PROJECT_ID</key>
+	<string>squad-rush-95f3a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>squad-rush-95f3a.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:268853689937:ios:256bc77faa43c96e794270</string>
+	<key>DATABASE_URL</key>
+	<string>https://squad-rush-95f3a-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
