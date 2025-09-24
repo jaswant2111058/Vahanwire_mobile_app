@@ -78,6 +78,9 @@ const BiddingScreen = ({ route, navigation }) => {
     };
 
     const handleAcceptBid = async (bid) => {
+
+        console.log('userData bid:', userData);
+
         if (!userData) {
             Alert.alert('Error', 'User data not found');
             return;
@@ -87,7 +90,7 @@ const BiddingScreen = ({ route, navigation }) => {
 
         try {
             const result = await acceptBid({
-                bidId: bid.id,
+                bidId: bid.bidId,
                 userId: userData.id
             });
 

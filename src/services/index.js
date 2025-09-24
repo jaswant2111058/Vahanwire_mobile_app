@@ -2,8 +2,8 @@ import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { showToast } from '../utils/toast';
 
-export const BASE_URL = __DEV__ ? "http://192.168.0.109:6600/api" : "https://server.vahan.com/api";
-export const SOCKET_URL = __DEV__ ? "http://192.168.0.109:6600" : "https://server.vahan.com";
+export const BASE_URL = __DEV__ ? "http://192.168.0.109:6600/api" : "https://vahanwire-server.onrender.com/api";
+export const SOCKET_URL = __DEV__ ? "http://192.168.0.109:6600" : "https://vahanwire-server.onrender.com";
 
 
 export const getUser = async () => {

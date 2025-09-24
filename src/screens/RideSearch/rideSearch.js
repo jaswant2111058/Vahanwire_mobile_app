@@ -51,6 +51,8 @@ const RideSearch = ({ navigation }) => {
 
         try {
             const result = await createRide(rideData);
+
+            console.log('Ride created:', result);
             
             if (result.success) {
                 socketService.joinRoom(result.data.id, 'user', userData.id);
